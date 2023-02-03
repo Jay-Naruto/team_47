@@ -1,0 +1,152 @@
+.landingpage {
+    margin: 0 auto;
+    padding: 0 80px;
+    position: relative;
+    max-width: 100%;
+    overflow-y: auto;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .landingpage::before {
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 60%;
+    top: 138px;
+    filter: blur(90px);
+    background-color: #FB37FF;
+  }
+  .landingpage::after {
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 80%;
+    top: 550px;
+    background-color: #18B2DE;
+    filter: blur(80px);
+  }
+.form {
+  min-width: 600px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #d7d7d7;
+  border-radius: 8px;
+}
+
+.h1{
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #407bff;
+    padding: 0px auto;
+    height: 40px;
+    color: white;
+}
+.formBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f4f7f8;
+;
+width: 50%;
+
+    
+}
+.svg img{
+    width: 500px;
+    height: auto;
+}
+.input {
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 20px;
+  height: auto;
+  margin: 0;
+  font-weight: bolder;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  /* background-color: #e8eeef; */
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  position: relative;
+  right: 15px;
+}
+.label{
+  color: black;
+}
+.input{
+  margin: 0 4px 8px 0;
+}
+
+
+
+.button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+}
+
+
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .form {
+    max-width: 480px;
+  }
+}

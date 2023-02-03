@@ -1,0 +1,190 @@
+/* Home Page */
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border-radius: var(--br-md);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--accent-color);
+    opacity: 0.7;
+}
+
+.container {
+    position: relative;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 850px;
+    /* margin-top: 50px; */
+}
+
+.actionsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    /* gap: 20px */
+}
+
+.todoInput {
+    background-color: var(--secondary-color);
+    width: 70%;
+    height: 50px;
+    border-radius: var(--br-2xl);
+    display: flex;
+    align-items: center;
+ }
+
+ .inputContainer {
+    width: 90%;
+ }
+
+  #inputField {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0px;
+    margin-left: 15px;
+  }
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+
+.landingpage {
+    width: 100%;
+    margin: 60px auto;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .about{
+    width: 100%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 80%;
+  }
+  .welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  }
+
+  .welcomeimg{
+    width: 100%;
+  }
+  .title{
+    background-color: black !important;
+  }
+  .welcome h4 {
+    margin: 30px 0;
+    font-family: Unbounded;
+    
+    }
+    .welcome h1 {
+      margin: 5px 0;
+      font-family: Unbounded;
+      
+      }
+  
+  .landinginfos {
+  margin: 60px 0;
+  }
+  
+  .landinginfos h2 {
+    text-align: center;
+  }
+  
+  
+  .coursespage{
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+  flex-wrap: wrap;
+  
+    align-items: center;
+   /* text-align: left; */
+  }
+  
+  
+  .coursescards{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    
+  }
+  @media screen and (max-width:1000px) {
+    .landingpage {
+      width: 100%;
+      margin: 60px auto;
+    }
+    
+    .welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    }
+    
+    .welcome h4 {
+    margin: 30px 0;
+    }
+    
+    .welleft {
+    margin-top: 60px;
+    }
+    
+    .welright {
+    margin-top: -195px;
+    margin-left: 40px;
+    }
+    
+    .landinginfos {
+    margin: 60px 0;
+    }
+    
+  
+  }
